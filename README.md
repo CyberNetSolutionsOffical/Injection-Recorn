@@ -27,8 +27,8 @@ Injection_Recon** is a Multi-threaded Web Vulnerability Scanner designed for sec
 ## Installation ⚡
 
 1. Clone the repository:
-     ```bash
-   git clone https://github.com/yourusername/Injection_Recon.git
+     ```bash[
+   https://github.com/CyberNetSolutionsOffical/Injection-Recorn.git
    cd Injection_Recon
      
 # Install dependencies:
@@ -105,5 +105,4 @@ By proceeding to use Injection_Recon, you acknowledge and accept these terms. Un
 
 Author: Dinesh Rimal
 Project Name: Injection_Recon
-GitHub: https://github.com/yourusername/Injection_Recon
-
+GitHub:[https://github.com/CyberNetSolutionsOffical/Injection-Recorn.git]
