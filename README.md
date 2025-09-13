@@ -85,6 +85,24 @@ License 📄
 
 # MIT License
 
+# ⚠️Disclaimer⚠️ 
+
+Injection_Recon is a security testing tool developed for educational purposes and ethical hacking only. The software is intended to help security researchers, penetration testers, and developers identify vulnerabilities in web applications such as SQL Injection and Cross-Site Scripting (XSS) in a controlled and legal environment. By using this tool, you agree to the following terms:
+
+1. Authorized Use Only: You must have explicit permission from the website owner or organization before running any scans. Testing websites without consent is considered illegal and may lead to criminal charges, civil penalties, or both. Injection_Recon must never be used on unauthorized targets.
+
+2. Legal Responsibility: The author, contributors, and distributors of Injection_Recon are not responsible for any misuse, damage, data loss, or legal consequences arising from the use of this software. Users assume full responsibility for their actions when deploying this tool.
+
+3. Data Protection: Injection_Recon does not store or transmit sensitive data outside your system intentionally. However, scanning production websites may expose user data inadvertently. Users must ensure they comply with data protection laws applicable in their jurisdiction.
+
+4. No Guarantees: Injection_Recon is provided “as-is” without any warranties. The tool may not detect all vulnerabilities, and false positives or false negatives may occur. Use it as a supplementary aid in security testing, not as a replacement for professional audits.
+
+5. Ethical Conduct: Users should adhere to ethical hacking principles. Only use the tool to identify and report vulnerabilities responsibly, preferably following coordinated disclosure guidelines. Never exploit vulnerabilities for personal gain, unauthorized access, or malicious purposes.
+
+6. Educational Purpose: The primary goal of Injection_Recon is to educate and train aspiring ethical hackers, security enthusiasts, and developers to understand web vulnerabilities and their impact.
+
+By proceeding to use Injection_Recon, you acknowledge and accept these terms. Unauthorized use or abuse may have serious legal consequences. Always obtain written permission before testing any system.
+
 Author: Dinesh Rimal
 Project Name: Injection_Recon
 GitHub: https://github.com/yourusername/Injection_Recon
